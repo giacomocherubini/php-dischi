@@ -20,14 +20,14 @@
     </div>
     <!-- template handlebars -->
     <script id="entry-template" type="text/x-handlebars-template">
-      <div class="entry">
-        <h1>{{title}}</h1>
-        <div class="body">
-          {{body}}
-        </div>
+      <div class="dischi">
+        <img src="{{ cover_img }}"></img>
+        <h3>{{ title }}</h3>
+        <h3>{{ artist }}</h3>
+        <h3>{{ year }}</h3>
       </div>
     </script>
-    
+
     <script src='public/js/app.js'></script>
     <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> -->
   </body>

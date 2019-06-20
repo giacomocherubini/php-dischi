@@ -2,7 +2,7 @@
   width: 100%;
   height: 100%;
   background-color: #262626;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container_albums {
@@ -21,10 +21,10 @@
   display: inline-block;
   text-align: center;
   background-color: black;
-}
 
-.dischi h3 {
-  padding-top: 10px;
+    h3 {
+      padding-top: 10px;
+    }
 }
 
 img {
@@ -32,11 +32,3 @@ img {
   height: 300px;
   margin-top: 30px;
 }
-
-* {
-  box-sizing: border-box;
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-
